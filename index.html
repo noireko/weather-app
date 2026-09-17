@@ -9,8 +9,14 @@
 
 <body>
     <form action="/enviar" method="POST">
-        <label for="nombre">Ubicación:</label>
-        <input type="text" id="ubicacion" name="ubicacion" placeholder="Tu ubicacion" required>
+        <label for="pais">País:</label>
+        <select id="pais" name="pais">
+            <option value="">Seleccioná una opción</option>
+            <option value="ar">Argentina</option>
+            <option value="uy">Uruguay</option>
+            <option value="cl">Chile</option>
+        </select>
+        <button type="submit">Enviar</button>
     </form>
     <img src="#">
     <script src="js/js.js">
