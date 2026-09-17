@@ -9,3 +9,4 @@ async function weatherAppAPI() {
 }
 
 weatherAppAPI();
+
