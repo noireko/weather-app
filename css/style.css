@@ -13,10 +13,31 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1.25rem;
 }
 
 #ubicacion {
-    padding: .3125rem 6.25rem;
-    border-radius: 1.25rem;
+    height: 48px;
+    width: 400px;
+    padding: 25px;
+    border-radius: 30px;
+    border: none;
 }
+
+#boton {
+    padding: 15px 50px;
+    border-radius:  30px;
+    background-color: rgb(73, 103, 251);
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+
+#pais-contenedor {
+    background-color: antiquewhite;
+    padding: 30px 100px;
+    border-radius: 20px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
