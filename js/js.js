@@ -1,5 +1,9 @@
 const boton = document.getElementById("boton");
 
+function mostrarDatos() {
+    const 
+}
+
 boton.addEventListener("click", function () {
     const valorInput = document.getElementById("ubicacion").value;
     async function weatherApp() {
